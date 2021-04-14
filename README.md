@@ -28,11 +28,11 @@ A barebones, skeleton Discord.JS bot, intended to serve as the foundation for a 
   2. Events 
 
 
-    ```js
-    module.exports = {
-        event: 'ready', // Name of the event (ready, message, error, guildUpdate, etc)
-        execute() {
-            console.log('Bot started')
-        }
-    }
-    ```
+  ```js
+  module.exports = {
+      event: 'ready', // Name of the event (ready, message, error, guildUpdate, etc)
+      execute() {
+          console.log('Bot started')
+      }
+  }
+  ```
